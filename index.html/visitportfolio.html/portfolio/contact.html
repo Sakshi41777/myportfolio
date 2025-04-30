@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Form | Sakshi Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f7fa;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .form-container {
+      background-color: #ffffff;
+      padding: 40px 30px;
+      border-radius: 10px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 500px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #7a57d1;
+      margin-bottom: 30px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      font-size: 1rem;
+      background-color: #f9f9fc;
+    }
+
+    input:focus, textarea:focus {
+      border-color: #9b63d1;
+      outline: none;
+    }
+
+    .button-wrapper {
+      text-align: center;
+    }
+
+    button {
+      background-color: #9b63d1;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #7a57d1;
+    }
+
+    @media (max-width: 600px) {
+      .form-container {
+        padding: 30px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h1>Contact Me!</h1>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <div class="button-wrapper">
+        <button type="submit"> > Send Message</button>
+      </div>
+    </form>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+      // Initialize EmailJS with your User ID (this is a unique ID from EmailJS)
+      (function () {
+        emailjs.init('K4xAk4yz5B2I0i4by');  
+      })();
+
+      const form = document.getElementById('contact-form');
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        // Send the form using EmailJS
+        emailjs.sendForm('service_6hi368l', 'template_xrkonem', form)
+          .then(function (response) {
+            alert('Your message was sent successfully!');
+          }, function (error) {
+            alert('Something went wrong, please try again.');
+          });
+      });
+    </script>
+  </div>
+</body>
+</html>

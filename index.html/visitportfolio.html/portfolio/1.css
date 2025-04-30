@@ -1,0 +1,153 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f7fa; /* Light background */
+  color: #333; /* Dark text for readability */
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: white; /* Purple background */
+}
+
+.navbar-brand {
+  color: rgb(15, 15, 15);
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: rgb(13, 13, 13) !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #914c9993 !important; /* Yellow on hover */
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+/* Header Section */
+.projects-header {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #6a4c9c; /* Purple background */
+  color: white;
+  border-bottom: 2px solid #fff;
+}
+
+.projects-header h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.projects-header p {
+  font-size: 1.2rem;
+  color: #e2e8f0;
+}
+
+/* Card Styles */
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.project-img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card-body {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.4rem;
+  color: #6a4c9c; /* Purple */
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #6b7280;
+}
+
+.btn-primary {
+  background-color: #6a4c9c; /* Purple button */
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 1rem;
+  border-radius: 25px; /* Rounded edges */
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #5c3a9c; /* Darker purple on hover */
+}
+
+/* Container and Row Styling */
+.container {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.row .col-md-4 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Footer Styling */
+#footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #6a4c9c; /* Purple footer */
+  color: white;
+  margin-top: 30px;
+  font-size: 1rem;
+}
+
+#footer a {
+  color: #ffeb3b;
+  text-decoration: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .projects-header {
+    padding: 40px 20px;
+  }
+
+  .project-img {
+    height: 150px;
+  }
+
+  /* Flexbox adjustments for smaller screens */
+  .row .col-md-4 {
+    flex: 1 0 100%; /* Stack columns on small screens */
+  }
+
+  /* Navbar adjustment */
+  .navbar-toggler {
+    margin-right: 10px; /* To ensure the toggle button fits better */
+  }
+}
+#button{
+  text-align: center;
+  background-color: aliceblue;
+  color: #333;
+}
+

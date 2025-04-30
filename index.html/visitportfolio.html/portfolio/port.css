@@ -1,0 +1,82 @@
+/* Background Styling */
+* {
+    background-image: url('https://images.unsplash.com/photo-1738005789742-78adf216eba7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;
+    background-size: cover;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Text Container (Left Side) */
+  #whole {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    transform: translate(-10%, -50%);
+    color: #240046;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.7); /* translucent white box */
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(112, 66, 193, 0.3);
+    border: 2px solid #c77dff;
+  }
+  
+  /* Text Elements */
+  /* Updated & Corrected Text Styling */
+  #b1 {
+    font-size: 90px; /* slightly decreased */
+    color: #5a189a;
+    font-weight: 700;
+  }
+  
+  #b2 {
+    font-size: 100px; /* slightly increased */
+    color: #7b2cbf;
+    font-weight: 600;
+  }
+  
+  #whole p {
+    font-size: 40px;
+    color: #9d4edd;
+    font-weight: 500;
+  }
+  
+  
+  /* Profile Image Container (Right Side) */
+  #pic {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.7); /* translucent white box */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(112, 66, 193, 0.3);
+    border: 2px solid #c77dff;
+  }
+  
+  /* Image Styling */
+  #pic img {
+    border-radius: 20px;
+    box-shadow: 0 6px 18px rgba(90, 24, 154, 0.25);
+  }
+  
+  /* Responsive Enhancements (Optional) */
+  @media (max-width: 768px) {
+    #whole, #pic {
+      position: static;
+      transform: none;
+      margin: 20px auto;
+    }
+  }
+  
