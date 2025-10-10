@@ -16,22 +16,7 @@ This website is a representation of my journey, skills, projects, and passion fo
 
 ## 🧠 My Role
 
-I am proud to share that **the entire design and code was created by me**. From wireframing the layout to implementing it line by line, every part of this portfolio reflects my individual effort and creativity.
-
-
-
-## 🤖 Use of ChatGPT
-
-To clarify with full transparency:
-
-- I used **ChatGPT only for guidance and suggestions**.  
-- No code was copy-pasted or directly generated without my understanding.  
-- I mainly took help in:
-  - Improving existing code logic
-  - Making the UI color scheme more aesthetic and visually balanced
-  - Getting suggestions on better structure and user flow
-- All **final design decisions** were made solely by me.
-- No part of this project is copied from third-party templates or sources.
+I am proud to share that **the entire design and code was created by me**. From wireframing the layout to implementing it line by line, every part of this portfolio reflects my individual effort and creativity
 
 
 
