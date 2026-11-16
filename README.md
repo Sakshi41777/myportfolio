@@ -1,55 +1,30 @@
-# 🌐 Personal Portfolio Website – Sakshi Mishra
+# Sakshi Mishra — Portfolio
 
-Welcome to my personal portfolio project!  
-This website is a representation of my journey, skills, projects, and passion for tech — built entirely by **me** from scratch 💻🎨
+My personal portfolio: AI agents, search tools and data projects, with the story behind each one.
 
+**Live site:** https://sakshi41777.github.io/myportfolio/
 
+## What's inside
 
-## 🛠️ Tech Stack
+- **Projects as stories:** the problem, why I built it, how it works step by step, and the tech behind it, with animated visuals and real screenshots from the live apps
+- **Search:** filter projects by skill, tool or idea (press `/` to jump to it)
+- **Leadership & journey:** an animated timeline of my roles, where each certificate and photo appears as you scroll
+- **Community, courses & certificates:** events, my #FreshersDeserveAStart series and NPTEL courses
+- **3D background:** a slowly rotating point cloud drawn on canvas
 
-- **HTML5**  
-- **CSS3**  
-- **JavaScript**  
-- **Responsive Design**
+## Projects featured
 
+GetPaid Agent (PayPal AI Hackathon) · Lumen (web-search agent) · MindCare · Smart Screenshot Search Engine · ChemXAI (team research) · Car Price Prediction · Pizza Sales Analysis
 
+## Built with
 
-## 🧠 My Role
+Plain HTML, CSS and JavaScript in a single `index.html`. No frameworks and no build step. All photos and certificates are embedded in the page, so it works anywhere as one file. It respects reduced-motion settings and works on mobile.
 
-I am proud to share that **the entire design and code was created by me**. From wireframing the layout to implementing it line by line, every part of this portfolio reflects my individual effort and creativity
+## Run locally
 
+Open `index.html` in any browser.
 
+## Contact
 
-## ✨ Features
-
-- Clean and modern design with a purple-based theme  
-- Mobile-responsive layout  
-- Projects section highlighting real academic work  
-- Contact section with LinkedIn and email links  
-- Smooth user experience and easy navigation
-
-
-
-## 🎯 Goals
-
-- Showcase my skills, personality, and learning journey  
-- Build something that truly represents **me** as a tech enthusiast and AI & DS student  
-- Learn by doing – HTML, CSS, JS, and UI/UX basics
-
-
-
-## 🙋‍♀️ About Me
-
-I'm **Sakshi Mishra**, an aspiring Data Scientist currently pursuing B.Tech in AI & Data Science from SISTec Gandhi Nagar (Bhopal).  
-This portfolio is one of my proudest projects because it's built with passion and a lot of self-learning.
-
-
-
-## 📫 Contact
-
-- **Email:** sakshimishra41777@gmail.com  
-- **LinkedIn:** [@Sakshi41777](https://www.linkedin.com/in/sakshi41777)  
-
-
-
-> “Great things are done by a series of small things brought together.” – Vincent Van Gogh  
+LinkedIn: https://www.linkedin.com/in/sakshi-mishra-1b6a30271
+GitHub: https://github.com/Sakshi41777
