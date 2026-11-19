@@ -517,27 +517,28 @@ dialog#viewer .nav p{margin:0;flex:1;text-align:center}
           </svg>
         </div>
         <div class="links">
+          <a class="live" href="https://github.com/Sakshi41777/Smart_Screenshot_Search_Engine/releases/latest" target="_blank" rel="noopener">Download for Windows</a>
           <a href="https://github.com/Sakshi41777/Smart_Screenshot_Search_Engine" target="_blank" rel="noopener">Code on GitHub</a>
         </div>
       </div>
       <div class="story">
-        <p class="ctx">Desktop app for Windows</p>
+        <p class="ctx">Windows desktop app (SmartShot) · team project, I built most of it</p>
         <h3>Smart Screenshot Search Engine</h3>
         <h4>The problem</h4>
         <p class="problem">Screenshots pile up with names like “Screenshot (231).png”. Finding the one that had a specific line of text means scrolling through hundreds of images.</p>
         <h4>Why I built it</h4>
-        <p>I wanted to search my images by what's actually inside them, the words and the visuals, the same way I search text.</p>
+        <p>I wanted to search my images by what's actually inside them, the words and the visuals, the same way I search text, without sending my files anywhere.</p>
         <h4>How it works</h4>
         <ol class="steps">
-          <li style="--i:0">Pick the folders to index: screenshots, images, PDFs and documents.</li>
-          <li style="--i:1">OCR reads the text inside every image and stores it in MongoDB.</li>
-          <li style="--i:2">Search by keyword, then filter by type, size, date or whether text was found.</li>
-          <li style="--i:3">Or search visually: use an image from the gallery or camera, crop it, and find similar ones.</li>
-          <li style="--i:4">Spot duplicate files, save important results and revisit grouped search history.</li>
-          <li style="--i:5">Ask an LLM questions about a selected result, with optional AI-assisted and semantic search.</li>
+          <li style="--i:0">Install it from a one-click Windows installer. No sign-up, no API key and no database setup: MongoDB is bundled and runs privately inside the app.</li>
+          <li style="--i:1">Pick a folder, your Desktop or a whole drive. Every subfolder is scanned and junk like node_modules, .git and system folders is skipped.</li>
+          <li style="--i:2">Tesseract OCR reads the text in every screenshot and photo, and text is pulled from PDFs and code files. After the first scan, only new or changed files are re-read.</li>
+          <li style="--i:3">Search by keyword and filter by type, extension, size, date or whether text was found.</li>
+          <li style="--i:4">Search by image: upload or crop one to find similar screenshots using perceptual hashing, and spot duplicate files.</li>
+          <li style="--i:5">Ask about a file to get a summary, key points, dates, amounts or action items, all on your own computer. Save files and re-run past searches in one click.</li>
         </ol>
         <h4>Tools &amp; tech</h4>
-        <ul class="tags"><li>Electron</li><li>React</li><li>Node.js</li><li>MongoDB</li><li>OCR</li><li>PyTorch</li><li>LLM APIs</li><li>Google OAuth</li></ul>
+        <ul class="tags"><li>Electron</li><li>React</li><li>Node.js</li><li>Express</li><li>MongoDB</li><li>Tesseract OCR</li><li>Perceptual hashing</li><li>PyTorch (BLIP, CLIP)</li></ul>
       </div>
     </article>
 
